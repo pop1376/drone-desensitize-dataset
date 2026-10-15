@@ -10,8 +10,8 @@
 | `AerialMPT.zip` | 76.9 MB | [下载](https://github.com/pop1376/drone-desensitize-dataset/releases/download/v1.0/AerialMPT.zip) |
 | `HIT-UAV.zip` | 792.7 MB | [下载](https://github.com/pop1376/drone-desensitize-dataset/releases/download/v1.0/HIT-UAV.zip) |
 | `ITCVD.zip` | 1.19 GB | [下载](https://github.com/pop1376/drone-desensitize-dataset/releases/download/v1.0/ITCVD.zip) |
-| `VEDAI.zip.001` | 1.5 GB | [下载](https://github.com/pop1376/drone-desensitize-dataset/releases/download/v1.0/VEDAI.zip.001) |
-| `VEDAI.zip.002` | 1.19 GB | [下载](https://github.com/pop1376/drone-desensitize-dataset/releases/download/v1.0/VEDAI.zip.002) |
+| `VEDAI.zip.001` | 0 MB | [下载](https://github.com/pop1376/drone-desensitize-dataset/releases/download/v1.0/VEDAI.zip.001) |
+| `VEDAI.zip.002` | 0 MB | [下载](https://github.com/pop1376/drone-desensitize-dataset/releases/download/v1.0/VEDAI.zip.002) |
 
 ### 02 车牌
 | 文件 | 大小 | 下载 |
@@ -29,8 +29,8 @@
 | `FDDB.zip` | 1.06 GB | [下载](https://github.com/pop1376/drone-desensitize-dataset/releases/download/v1.0/FDDB.zip) |
 | `SCUT_HEAD_hf.zip` | 954 MB | [下载](https://github.com/pop1376/drone-desensitize-dataset/releases/download/v1.0/SCUT_HEAD_hf.zip) |
 | `WIDER_FACE_annotations.zip` | 3.4 MB | [下载](https://github.com/pop1376/drone-desensitize-dataset/releases/download/v1.0/WIDER_FACE_annotations.zip) |
-| `WIDER_FACE_test.zip` | 1.72 GB | [下载](https://github.com/pop1376/drone-desensitize-dataset/releases/download/v1.0/WIDER_FACE_test.zip) |
-| `WIDER_FACE_train.zip` | 1.36 GB | [下载](https://github.com/pop1376/drone-desensitize-dataset/releases/download/v1.0/WIDER_FACE_train.zip) |
+| `WIDER_FACE_test.zip` | 0 MB | [下载](https://github.com/pop1376/drone-desensitize-dataset/releases/download/v1.0/WIDER_FACE_test.zip) |
+| `WIDER_FACE_train.zip` | 0 MB | [下载](https://github.com/pop1376/drone-desensitize-dataset/releases/download/v1.0/WIDER_FACE_train.zip) |
 | `WIDER_FACE_val.zip` | 345.9 MB | [下载](https://github.com/pop1376/drone-desensitize-dataset/releases/download/v1.0/WIDER_FACE_val.zip) |
 
 ### 04 俯视监控
