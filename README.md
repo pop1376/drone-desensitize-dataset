@@ -1,8 +1,8 @@
 # 无人机脱敏检测训练数据集
 
-无人机视角下行人 / 人脸 / 车辆 / 车牌检测与脱敏模型训练数据集。共 **22 个压缩包、约 7.4 GB**，全部托管于本仓库 Release v1.0，点击即下载，无需登录。
+无人机视角下行人 / 人脸 / 车辆 / 车牌检测与脱敏模型训练数据集。共 **24 个压缩包、约 7.6 GB**，全部托管于本仓库 Release v1.0，点击即下载，无需登录。
 
-## 一、强相关（无人机/航拍/遥感/高空俯视，视角直接匹配，10 个）
+## 一、强相关（无人机/航拍/遥感/高空俯视，视角直接匹配，12 个）
 
 | 文件名 | 大小 | 内容 | 下载 |
 |---|--:|---|---|
@@ -12,7 +12,9 @@
 | HRRSD.zip | 14.4 MB | HRRSD 遥感/航空车辆标注 | [下载](https://github.com/pop1376/drone-desensitize-dataset/releases/download/v1.0/HRRSD.zip) |
 | CNRPark_patches.zip | 34.9 MB | CNRPark 高位俯视停车场 patch（busy/free） | [下载](https://github.com/pop1376/drone-desensitize-dataset/releases/download/v1.0/CNRPark_patches.zip) |
 | AI-TOD_annotations_v1.zip | 35.2 MB | AI-TOD 无人机航拍微小目标 v1 标注 | [下载](https://github.com/pop1376/drone-desensitize-dataset/releases/download/v1.0/AI-TOD_annotations_v1.zip) |
+| CitySim.zip | 49.5 MB | CitySim 无人机车辆轨迹数据集，12场景航拍底图 | [下载](https://github.com/pop1376/drone-desensitize-dataset/releases/download/v1.0/CitySim.zip) |
 | AerialMPT.zip | 76.9 MB | 高空航拍行人追踪数据集，DLR发布 | [下载](https://github.com/pop1376/drone-desensitize-dataset/releases/download/v1.0/AerialMPT.zip) |
+| SinD.zip | 124.4 MB | SinD 无人机路口行人/车辆轨迹（4城市） | [下载](https://github.com/pop1376/drone-desensitize-dataset/releases/download/v1.0/SinD.zip) |
 | CNRPark_EXT_patches.zip | 429 MB | CNRPark-EXT 高位俯视停车场扩展 patch | [下载](https://github.com/pop1376/drone-desensitize-dataset/releases/download/v1.0/CNRPark_EXT_patches.zip) |
 | HIT-UAV.zip | 793 MB | 无人机红外热成像，昼夜多视角 | [下载](https://github.com/pop1376/drone-desensitize-dataset/releases/download/v1.0/HIT-UAV.zip) |
 | ITCVD.zip | 1217 MB | 高分辨率机载航拍车辆（约6000×4000），有效166张 | [下载](https://github.com/pop1376/drone-desensitize-dataset/releases/download/v1.0/ITCVD.zip) |
@@ -36,7 +38,8 @@
 
 ## 三、使用说明
 
-1. **标注缺图类**：AI-TOD、HRRSD、CrowdHuman、MOBDrone、UC3M-LP 仅含标注文件，图像需按各包内 README 另行下载，不可直接用于训练。
-2. **许可**：多为学术研究用途（部分 CC BY-NC-SA）；人脸、车牌属敏感个人信息，仅在授权范围内以脱敏为目的使用，勿二次传播。
-3. **本次未上传**（受单文件 2GB / 网络限制，需要可随时补传）：`WIDER_FACE_train.zip`、`WIDER_FACE_test.zip`、`VEDAI.zip`（分卷共约 2.7GB）。
-4. 类别建议统一映射为 `person / face / car / license_plate` 四类后再训练。
+1. **无人机原生轨迹类（SinD / CitySim）**：SinD 为 4 城市路口行人/车辆平滑轨迹（局部坐标 CSV，需结合底图/OSM 做坐标转换，非像素框）；CitySim 公开部分为无标注航拍底图，完整逐车旋转框（OBB）轨迹需向官方申请。
+2. **标注缺图类**：AI-TOD、HRRSD、CrowdHuman、MOBDrone、UC3M-LP 仅含标注文件，图像需按各包内 README 另行下载，不可直接用于训练。
+3. **许可**：多为学术研究用途（部分 CC BY-NC-SA）；人脸、车牌属敏感个人信息，仅在授权范围内以脱敏为目的使用，勿二次传播。
+4. **本次未上传**（受单文件 2GB / 网络限制，需要可随时补传）：`WIDER_FACE_train.zip`、`WIDER_FACE_test.zip`、`VEDAI.zip`（分卷共约 2.7GB）。
+5. 类别建议统一映射为 `person / face / car / license_plate` 四类后再训练。
